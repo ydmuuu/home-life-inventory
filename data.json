@@ -1,11 +1,173 @@
 {
   "app": {
-    "name": "我的家 · 物品与记账管理",
+    "name": "我的家 · 生活管理",
     "currency": "KRW",
     "updatedAt": "2026-09-14"
   },
-  "items": [],
-  "purchaseHistory": [],
-  "consumptionHistory": [],
-  "ledger": []
+  "items": [
+    {
+      "id": "item-001",
+      "name": "测试",
+      "brand": "测试品牌A",
+      "category": "洗护",
+      "quantity": 3,
+      "unit": "瓶",
+      "minQuantity": 1,
+      "location": "卫生间 → 镜柜 → 第二层",
+      "rating": 4,
+      "repurchase": "会",
+      "review": "使用感不错，味道清爽。",
+      "startedAt": "2026-09-01",
+      "status": "在用",
+      "emoji": "🧴"
+    },
+    {
+      "id": "item-002",
+      "name": "测试",
+      "brand": "测试品牌B",
+      "category": "日用品",
+      "quantity": 0,
+      "unit": "卷",
+      "minQuantity": 2,
+      "location": "厨房 → 储物柜 → 第一层",
+      "rating": 5,
+      "repurchase": "会",
+      "review": "常用消耗品。",
+      "startedAt": "2026-08-15",
+      "status": "需补货",
+      "emoji": "🧻"
+    },
+    {
+      "id": "item-003",
+      "name": "测试",
+      "brand": "测试品牌C",
+      "category": "护肤",
+      "quantity": 1,
+      "unit": "盒",
+      "minQuantity": 0,
+      "location": "卧室 → 梳妆台 → 抽屉",
+      "rating": 2,
+      "repurchase": "不会",
+      "review": "质地偏黏，不太喜欢，以后不再买。",
+      "startedAt": "2026-07-20",
+      "status": "在用",
+      "emoji": "🧖"
+    },
+    {
+      "id": "item-004",
+      "name": "测试",
+      "brand": "测试品牌D",
+      "category": "清洁",
+      "quantity": 2,
+      "unit": "瓶",
+      "minQuantity": 1,
+      "location": "阳台 → 清洁柜 → 下层",
+      "rating": 4,
+      "repurchase": "可能会",
+      "review": "清洁力不错，价格合适时会买。",
+      "startedAt": "2026-09-08",
+      "status": "在用",
+      "emoji": "🧼"
+    }
+  ],
+  "purchaseHistory": [
+    {
+      "id": "buy-001",
+      "itemId": "item-001",
+      "date": "2026-06-12",
+      "quantity": 2,
+      "unit": "瓶",
+      "totalPrice": 17800,
+      "unitPrice": 8900,
+      "store": "Coupang",
+      "spec": "500ml/瓶"
+    },
+    {
+      "id": "buy-002",
+      "itemId": "item-001",
+      "date": "2026-09-01",
+      "quantity": 2,
+      "unit": "瓶",
+      "totalPrice": 15800,
+      "unitPrice": 7900,
+      "store": "测试商城",
+      "spec": "500ml/瓶"
+    },
+    {
+      "id": "buy-003",
+      "itemId": "item-002",
+      "date": "2026-08-10",
+      "quantity": 6,
+      "unit": "卷",
+      "totalPrice": 12000,
+      "unitPrice": 2000,
+      "store": "测试超市",
+      "spec": "1卷"
+    },
+    {
+      "id": "buy-004",
+      "itemId": "item-003",
+      "date": "2026-07-18",
+      "quantity": 1,
+      "unit": "盒",
+      "totalPrice": 18900,
+      "unitPrice": 18900,
+      "store": "Olive Young",
+      "spec": "1盒"
+    }
+  ],
+  "consumptionHistory": [
+    {
+      "id": "use-001",
+      "itemId": "item-001",
+      "date": "2026-08-30",
+      "quantity": 1,
+      "unit": "瓶"
+    },
+    {
+      "id": "use-002",
+      "itemId": "item-002",
+      "date": "2026-09-12",
+      "quantity": 1,
+      "unit": "卷"
+    }
+  ],
+  "ledger": [
+    {
+      "id": "ledger-001",
+      "date": "2026-09-01",
+      "type": "支出",
+      "category": "家庭用品",
+      "subcategory": "洗护",
+      "amount": 15800,
+      "merchant": "测试商城",
+      "paymentMethod": "信用卡",
+      "itemId": "item-001",
+      "note": "测试商品 2瓶"
+    },
+    {
+      "id": "ledger-002",
+      "date": "2026-09-13",
+      "type": "支出",
+      "category": "饮食",
+      "subcategory": "咖啡",
+      "amount": 5500,
+      "merchant": "测试咖啡店",
+      "paymentMethod": "信用卡",
+      "itemId": null,
+      "note": "咖啡"
+    },
+    {
+      "id": "ledger-003",
+      "date": "2026-09-14",
+      "type": "支出",
+      "category": "交通",
+      "subcategory": "公交",
+      "amount": 1500,
+      "merchant": "交通卡",
+      "paymentMethod": "交通卡",
+      "itemId": null,
+      "note": "公交"
+    }
+  ]
 }
