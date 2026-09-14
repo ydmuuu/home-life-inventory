@@ -1,0 +1,11 @@
+{
+  "app": {
+    "name": "我的家 · 物品与记账管理",
+    "currency": "KRW",
+    "updatedAt": "2026-09-14"
+  },
+  "items": [],
+  "purchaseHistory": [],
+  "consumptionHistory": [],
+  "ledger": []
+}
