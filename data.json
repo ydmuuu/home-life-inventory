@@ -32,7 +32,7 @@
       "location": "线上服务",
       "rating": 0,
       "repurchase": "会",
-      "review": "US$4/月，每月自动续费；固定数字服务订阅。",
+      "review": "US$4/月，每月自动续费；固定数字服务订阅。支付方式：乐天信用卡（尾号2484）。",
       "startedAt": "2026-09-16",
       "status": "订阅中",
       "emoji": "💻"
@@ -62,6 +62,7 @@
       "amount": 4,
       "currency": "USD",
       "status": "active",
+      "paymentMethod": "乐天信用卡（尾号2484）",
       "note": "每月自动续费；韩元实际扣款以信用卡账单为准。"
     }
   ],
