@@ -20,6 +20,22 @@
       "startedAt": "",
       "status": "待到货",
       "emoji": "🧻"
+    },
+    {
+      "id": "item-006",
+      "name": "GitHub Pro",
+      "brand": "GitHub",
+      "category": "软件订阅",
+      "quantity": 1,
+      "unit": "项",
+      "minQuantity": 0,
+      "location": "线上服务",
+      "rating": 0,
+      "repurchase": "会",
+      "review": "US$4/月，每月自动续费；固定数字服务订阅。",
+      "startedAt": "2026-09-16",
+      "status": "订阅中",
+      "emoji": "💻"
     }
   ],
   "purchaseHistory": [
@@ -36,6 +52,19 @@
     }
   ],
   "consumptionHistory": [],
+  "subscriptions": [
+    {
+      "id": "sub-001",
+      "name": "GitHub Pro",
+      "provider": "GitHub",
+      "startDate": "2026-09-16",
+      "billingCycle": "monthly",
+      "amount": 4,
+      "currency": "USD",
+      "status": "active",
+      "note": "每月自动续费；韩元实际扣款以信用卡账单为准。"
+    }
+  ],
   "ledger": [
     {
       "id": "ledger-004",
