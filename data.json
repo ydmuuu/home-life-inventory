@@ -47,6 +47,7 @@
       "unit": "包",
       "totalPrice": 8990,
       "unitPrice": 899,
+      "currency": "KRW",
       "store": "",
       "spec": "10包"
     }
@@ -74,10 +75,24 @@
       "category": "家庭用品",
       "subcategory": "日用品",
       "amount": 8990,
+      "currency": "KRW",
       "merchant": "",
       "paymentMethod": "",
       "itemId": "item-005",
       "note": "湿巾 10包，待到货"
+    },
+    {
+      "id": "ledger-005",
+      "date": "2026-09-16",
+      "type": "支出",
+      "category": "软件服务",
+      "subcategory": "订阅",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "GitHub",
+      "paymentMethod": "乐天信用卡（尾号2484）",
+      "itemId": "item-006",
+      "note": "GitHub Pro 月度订阅；每月自动续费"
     }
   ]
 }
