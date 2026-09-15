@@ -36,6 +36,22 @@
       "startedAt": "2026-09-16",
       "status": "订阅中",
       "emoji": "💻"
+    },
+    {
+      "id": "item-007",
+      "name": "猫砂",
+      "brand": "",
+      "category": "宠物用品",
+      "quantity": 2,
+      "unit": "包",
+      "minQuantity": 1,
+      "location": "设备间",
+      "rating": 0,
+      "repurchase": "未决定",
+      "review": "本次购买3包，共₩33,900；2026-09-16开始使用第1包，目前剩余2包未开封。单包成本₩11,300。",
+      "startedAt": "2026-09-16",
+      "status": "有库存",
+      "emoji": "🐱"
     }
   ],
   "purchaseHistory": [
@@ -50,9 +66,31 @@
       "currency": "KRW",
       "store": "",
       "spec": "10包"
+    },
+    {
+      "id": "buy-006",
+      "itemId": "item-007",
+      "date": "2026-09-16",
+      "quantity": 3,
+      "unit": "包",
+      "totalPrice": 33900,
+      "unitPrice": 11300,
+      "currency": "KRW",
+      "store": "",
+      "spec": "3包"
     }
   ],
-  "consumptionHistory": [],
+  "consumptionHistory": [
+    {
+      "id": "use-001",
+      "itemId": "item-007",
+      "date": "2026-09-16",
+      "action": "开始使用",
+      "quantity": 1,
+      "unit": "包",
+      "note": "开始使用本次购买的第1包猫砂；剩余2包未开封，存放于设备间。"
+    }
+  ],
   "subscriptions": [
     {
       "id": "sub-001",
@@ -93,6 +131,19 @@
       "paymentMethod": "乐天信用卡（尾号2484）",
       "itemId": "item-006",
       "note": "GitHub Pro 月度订阅；每月自动续费"
+    },
+    {
+      "id": "ledger-006",
+      "date": "2026-09-16",
+      "type": "支出",
+      "category": "宠物用品",
+      "subcategory": "猫砂",
+      "amount": 33900,
+      "currency": "KRW",
+      "merchant": "",
+      "paymentMethod": "",
+      "itemId": "item-007",
+      "note": "猫砂3包，共₩33,900；单包₩11,300。当天开始使用第1包，剩余2包存放于设备间。"
     }
   ]
 }
