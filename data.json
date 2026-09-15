@@ -2,7 +2,7 @@
   "app": {
     "name": "我的家 · 生活管理",
     "currency": "KRW",
-    "updatedAt": "2026-09-14"
+    "updatedAt": "2026-09-16"
   },
   "items": [
     {
@@ -68,6 +68,22 @@
       "startedAt": "2026-09-08",
       "status": "在用",
       "emoji": "🧼"
+    },
+    {
+      "id": "item-005",
+      "name": "湿巾",
+      "brand": "",
+      "category": "日用品",
+      "quantity": 10,
+      "unit": "包",
+      "minQuantity": 2,
+      "location": "待到货",
+      "rating": 0,
+      "repurchase": "未决定",
+      "review": "",
+      "startedAt": "",
+      "status": "待到货",
+      "emoji": "🧻"
     }
   ],
   "purchaseHistory": [
@@ -114,6 +130,17 @@
       "unitPrice": 18900,
       "store": "Olive Young",
       "spec": "1盒"
+    },
+    {
+      "id": "buy-005",
+      "itemId": "item-005",
+      "date": "2026-09-16",
+      "quantity": 10,
+      "unit": "包",
+      "totalPrice": 8990,
+      "unitPrice": 899,
+      "store": "",
+      "spec": "10包"
     }
   ],
   "consumptionHistory": [
@@ -168,6 +195,18 @@
       "paymentMethod": "交通卡",
       "itemId": null,
       "note": "公交"
+    },
+    {
+      "id": "ledger-004",
+      "date": "2026-09-16",
+      "type": "支出",
+      "category": "家庭用品",
+      "subcategory": "日用品",
+      "amount": 8990,
+      "merchant": "",
+      "paymentMethod": "",
+      "itemId": "item-005",
+      "note": "湿巾 10包，待到货"
     }
   ]
 }
